@@ -1,0 +1,13 @@
+{
+  "name": "w3schools_css_ex",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Eliseu de Sousa Nogueira<eliseu.nogueira@outlook.com>",
+  "scripts": {
+    "start": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --port 80"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}

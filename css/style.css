@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+body {
+  background-image: url('https://i.picsum.photos/id/1021/2048/1206.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0vh;
+}
+.logo {
+  background-image: url('https://www.w3schools.com/images/w3certified_logo_250.png');
+  height: 100px;
+  max-width: 250px;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.progress {
+  font-family: 'Roboto Slab';
+  color: #fff;
+}
+.progress ul {
+  list-style: none;
+}
+.progress ul > li:hover {
+  color: black;
+}
+.progress h1 {
+  color: blueviolet;
+  opacity: 0.5;
+}
+code {
+  font-family: monospace;
+}
+li:nth-child(even) {
+  background-color: gray;
+  opacity: 0.2;
+}
+date {
+  font-weight: 400;
+}
